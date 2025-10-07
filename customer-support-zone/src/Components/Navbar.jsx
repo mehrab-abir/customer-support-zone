@@ -18,7 +18,7 @@ const Navbar = () => {
                         <a href="#" className='text-lg hover:cursor-pointer hover:underline'>Download</a>
                         <a href="#" className='text-lg mr-4 hover:cursor-pointer hover:underline'>Contact</a>
                     </div>
-                    <button className='rounded bg-[linear-gradient(125.07deg,_#632EE3_0%,_#9F62F2_100%)] text-white px-4 py-2 cursor-pointer mt-4 md:mt-0'>+ New Ticket</button>
+                    <button className='rounded bg-[linear-gradient(125.07deg,_#632EE3_0%,_#9F62F2_100%)] text-white px-4 py-2 cursor-pointer mt-4 md:mt-0 mr-5 hidden md:block'>+ New Ticket</button>
 
                     <div className='flex md:hidden flex-col ietms-center justify-center ml-6 mt-3 cursor-pointer' id="menuToggler" onClick={expandMenu}>
                         <span className='w-[30px] h-[4px] bg-black mt-1'></span>

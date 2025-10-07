@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import StatusCounter from './Components/Status_counter/StatusCounter'
 import TicketsContainer from './Components/TicketsManager/TicketsContainer'
 import TicketStatus from './Components/TicketsManager/TicketStatus'
+import NewTicketButton from './Components/NewTicketButton'
 import { useEffect, useState } from 'react'
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -57,6 +58,8 @@ function App() {
     <>
       <Navbar></Navbar>
       <MobileNavbar></MobileNavbar>
+
+      <NewTicketButton></NewTicketButton>
 
       <StatusCounter 
         progressCounter={progressCounter}

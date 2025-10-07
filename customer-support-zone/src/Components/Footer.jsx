@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='py-12 bg-black'>
-            <div className="container w-[90%] mx-auto flex flex-col items-center text-center md:flex-row md:items-start md:text-left justify-between gap-4 mb-15">
+            <div className="container w-[90%] mx-auto flex flex-col items-center text-center md:flex-row md:items-start md:text-left justify-between gap-4 mb-10">
                 <div className="about text-white w-[70%] md:w-[30%]">
                     <h1 className="text-2xl font-bold mb-4">CS- Ticket System</h1>
                     <p className='text-[#A1A1AA]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -64,7 +64,12 @@ const Footer = () => {
 
             <div className="footer-bottom w-[90%] mx-auto text-center">
                 <hr />
-                <p className='text-white mt-8'>© 2025 CS — Ticket System. All rights reserved.</p>
+                <p className='mt-5'><a href="https://www.linkedin.com/in/mehrababir" className='font-bold text-white'>Mehrab Jalil Abir 
+                <div className='bg-white rounded-full w-[35px] h-[35px] ml-3 inline'>
+                        <i className="fa-brands fa-linkedin-in text-black"></i> 
+                </div>
+                </a></p>
+                <p className='text-white'>© 2025 . All rights reserved.</p>
             </div>
         </div>
     );
