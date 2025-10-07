@@ -20,7 +20,7 @@ const Navbar = () => {
                     </div>
                     <button className='rounded bg-[linear-gradient(125.07deg,_#632EE3_0%,_#9F62F2_100%)] text-white px-4 py-2 cursor-pointer mt-4 md:mt-0'>+ New Ticket</button>
 
-                    <div className='flex md:hidden flex-col ietms-center justify-center ml-6 cursor-pointer' id="menuToggler" onClick={expandMenu}>
+                    <div className='flex md:hidden flex-col ietms-center justify-center ml-6 mt-3 cursor-pointer' id="menuToggler" onClick={expandMenu}>
                         <span className='w-[30px] h-[4px] bg-black mt-1'></span>
                         <span className='w-[30px] h-[4px] bg-black mt-1'></span>
                         <span className='w-[30px] h-[4px] bg-black mt-1'></span>
