@@ -1,4 +1,5 @@
 import Navbar from './Components/Navbar'
+import MobileNavbar from './Components/MobileNavbar'
 import Footer from './Components/Footer'
 import StatusCounter from './Components/Status_counter/StatusCounter'
 import TicketsContainer from './Components/TicketsManager/TicketsContainer'
@@ -55,6 +56,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
+      <MobileNavbar></MobileNavbar>
 
       <StatusCounter 
         progressCounter={progressCounter}
